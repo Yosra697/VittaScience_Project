@@ -52,11 +52,7 @@ Les contributions sont les bienvenues !
 2. **Créer une branche** (`feature-nouvelle-fonctionnalité`)  
 3. **Soumettre une Pull Request**  
 
-## 📜 Licence  
-Ce projet est sous licence **MIT**.  
-
----  
-📌 **Projet réalisé par le groupe 5**  
+## Projet réalisé par le groupe 5 
 👥 **Membres du groupe** :  
 - Jouini Seyfeddine - jouini.seyf.js@gmail.com  
 - Tlili Sirine - cyrinetlili07@gmail.com  
