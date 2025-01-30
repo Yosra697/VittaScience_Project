@@ -21,45 +21,37 @@ Il permet aux utilisateurs d'expérimenter avec **la synthèse vocale (TTS), la 
 ```bash
 git clone https://github.com/vittascience/VittaScience_Project.git
 cd VittaScience_Project
-🔹 Installer les dépendances
+```
 
+### 🔹 Installer les dépendances  
+```bash
 pip install -r requirements.txt
-🔹 Lancer le serveur
+```
 
+### 🔹 Lancer le serveur  
+```bash
 python app.py
-🔹 Accéder à l’interface
-Ouvrir un navigateur et aller sur :
+```
 
+### 🔹 Accéder à l’interface  
+Ouvrir un navigateur et aller sur :  
+```bash
 http://localhost:5000
-📝 Documentation
-La documentation complète du projet est disponible dans le dossier Docs/.
-Elle inclut :
+```
 
-📄 Cahier de charge
-📑 Rapports des sprints
-📘 Guides d’installation et d’utilisation
-🤝 Contribuer
-Les contributions sont les bienvenues !
+## 📝 Documentation  
+La documentation complète du projet est disponible dans le dossier **Docs/**.  
+Elle inclut :  
+- 📝 **Cahier de charge**  
+- 💑 **Rapports des sprints**  
+- 📚 **Guides d’installation et d’utilisation**  
 
-Forker le dépôt
-Créer une branche (feature-nouvelle-fonctionnalité)
-Soumettre une Pull Request
-📜 Licence
-Ce projet est sous licence MIT.
+## 🤝 Contribuer  
+Les contributions sont les bienvenues !  
 
+1. **Forker** le dépôt  
+2. **Créer une branche** (`feature-nouvelle-fonctionnalité`)  
+3. **Soumettre une Pull Request**  
 
-C'est un seul fichier `.md`, prêt à être ajouté au dépôt Git ! 🚀
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 🐜 Licence  
+Ce projet est sous licence **MIT**.
