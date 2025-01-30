@@ -11,7 +11,7 @@ Ce projet vise à développer un **module de génération sonore** basé sur l�
 
 ## 🛠 Technologies Utilisées  
 - **Frontend** : HTML, CSS, JavaScript  
-- **Backend** : Python (Flask)  
+- **Backend** : Python/JavaScript
 - **Modèles IA** : Algorithmes de synthèse vocale et de génération musicale  
 
 ## 🚀 Installation & Exécution  
