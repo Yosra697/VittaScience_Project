@@ -1,7 +1,6 @@
 # 🎵 VittaScience - Interface de Génération Sonore par IA  
 
-Ce projet vise à développer un **module de génération sonore** basé sur l’intelligence artificielle, destiné à être intégré à la plateforme **Vittascience**.  
-Il permet aux utilisateurs d'expérimenter avec **la synthèse vocale (TTS), la génération musicale, la synchronisation labiale (lypsing) et la conversion vocale (STS)**.
+Ce projet vise à développer un **module de génération sonore** basé sur l’intelligence artificielle, destiné à être intégré à la plateforme **Vittascience**. Il permet aux utilisateurs d'expérimenter avec **la synthèse vocale (TTS), la génération musicale, la synchronisation labiale (lypsing) et la conversion vocale (STS)**.
 
 ## 📌 Objectifs  
 - 🎙 **Synthèse Vocale (TTS-STT)** : Transformer un texte en voix synthétique et effectuer la reconnaissance vocale.  
@@ -42,9 +41,9 @@ http://localhost:5000
 ## 📝 Documentation  
 La documentation complète du projet est disponible dans le dossier **Docs/**.  
 Elle inclut :  
-- 📝 **Cahier de charge**  
-- 💑 **Rapports des sprints**  
-- 📚 **Guides d’installation et d’utilisation**  
+- 📄 **Cahier de charge**  
+- 📑 **Rapports des sprints**  
+- 📘 **Guides d’installation et d’utilisation**  
 
 ## 🤝 Contribuer  
 Les contributions sont les bienvenues !  
@@ -53,5 +52,14 @@ Les contributions sont les bienvenues !
 2. **Créer une branche** (`feature-nouvelle-fonctionnalité`)  
 3. **Soumettre une Pull Request**  
 
-## 🐜 Licence  
-Ce projet est sous licence **MIT**.
+## 📜 Licence  
+Ce projet est sous licence **MIT**.  
+
+---  
+📌 **Projet réalisé par le groupe 5**  
+👥 **Membres du groupe** :  
+- Jouini Seyfeddine - jouini.seyf.js@gmail.com  
+- Tlili Sirine - cyrinetlili07@gmail.com  
+- Sassi Yosra - sassiyosra66@gmail.com  
+- Elgarani Hasna - elgaranihasna@gmail.com  
+- Brahimi Kaoutar - kaoutarbrahimi28@gmail.com
