@@ -1,0 +1,180 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    font-size: 26px;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Input Textarea */
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    margin-top: 5px;
+}
+
+/* Form Controls */
+.controls {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.control-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Select Dropdown */
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Sliders */
+.slider {
+    width: 100%;
+    margin-top: 5px;
+    appearance: none;
+    height: 5px;
+    background: #ddd;
+    outline: none;
+    border-radius: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Status Messages */
+#tts-status, #transcriptionStatus {
+    font-size: 14px;
+    color: #007bff;
+    margin-top: 10px;
+    display: none;
+}
+
+#recordingStatus {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+/* Mise en page en grille */
+.settings-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.setting {
+    display: flex;
+    flex-direction: column;
+}
+.setting2 {
+    grid-column: span 2; /* Étend sur deux colonnes si utilisé dans une grille */
+    width: 100%; /* S'assure que la div prend toute la largeur disponible */
+    display: flex;
+    flex-direction: column;
+}
+
+.setting2 input {
+    width: 100%; /* Étend le slider sur toute la largeur */
+}
+
+/* Ajustement des boutons */
+button {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 10px 5px;
+    display: inline-block;
+}
+
+/* Affichage côte à côte */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
