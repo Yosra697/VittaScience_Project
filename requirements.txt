@@ -1,0 +1,9 @@
+openai-whisper
+opencv-python
+dlib
+numpy
+moviepy
+flask
+flask-cors
+torch
+TTS
