@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Speech-to-Speech</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hidden { display: none; }
+        .error { color: red; }
+        .success { color: green; }
+        .loading { color: blue; }
+        #generatedAudio { width: 100%; margin-top: 10px; }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <header>
+        <h1>🔁 Conversion de la parole</h1>
+        <p>Parlez dans le micro et écoutez la version vocale générée automatiquement.</p>
+    </header>
+
+    <main>
+        <button id="startSTSRecording">🎙️ Enregistrer</button>
+
+        <!-- Status Messages -->
+        <p id="stsRecordingStatus" class="loading hidden">🔴 Enregistrement en cours...</p>
+        <p id="stsProcessingStatus" class="loading hidden">⏳ Traitement de l'audio...</p>
+        <p id="stsSuccessStatus" class="success hidden">🎉 Clonage vocal réussi !</p>
+        <p id="stsError" class="error hidden">❌ Une erreur est survenue.</p>
+
+        <!-- Transcription and Audio Result -->
+        <div id="stsResult" style="margin-top: 20px;">
+            <p id="stsTranscription" class="success">📝 Transcription : Aucune</p>
+            
+            <div id="audioPlayback" class="hidden">
+                <audio id="generatedAudio" controls></audio>
+            </div>
+        </div>
+
+        <button onclick="window.location.href='index.html'" style="margin-top: 30px;">🏠 Retour à l'accueil</button>
+    </main>
+</div>
+
+<script src="sts.js"></script>
+</body>
+</html>

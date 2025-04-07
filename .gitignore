@@ -1,0 +1,8 @@
+Version Finale/venv/
+# (optionnel) Ignorer les fichiers temporaires
+__pycache__/
+*.pyc
+
+
+
+

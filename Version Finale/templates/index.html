@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil - Application Voix</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f3f3;
+            margin: 0;
+        }
+        .menu {
+            text-align: center;
+        }
+        .menu h1 {
+            margin-bottom: 40px;
+        }
+        .menu button {
+            display: block;
+            margin: 15px auto;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .menu button:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h1>Bienvenue ! Choisissez une fonctionnalité</h1>
+        <button onclick="location.href='TTS.html'">🗣️ Synthèse vocale (TTS)</button>
+        <button onclick="location.href='STT.html'">🎤 Reconnaissance vocale (STT)</button>
+        <button onclick="location.href='STS.html'">🔁 Conversion de la parole (STS)</button>
+        <button onclick="location.href='music.html'">🎵 Génération musicale  </button>
+    </div>
+    
+</body>
+</html>
